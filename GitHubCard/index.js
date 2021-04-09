@@ -94,7 +94,7 @@ function moreCards (array){
         const userInfo = response.data; console.log("userInfo: \n", userInfo);
 
         const imageURL = userInfo.avatar_url;
-        // console.log (imageURL);
+        console.log ("imageURL: ", imageURL);
 
         const nameInfo = userInfo.name;
         // console.log(nameInfo);
@@ -165,7 +165,7 @@ function userCardMaker ({imageURL, nameInfo, idInfo, locationInfo, profileURL, f
   userCard.classList.add("card");
 
   const userImage = document.createElement("img");
-  userImage.setAttribute.src = imageURL;
+  userImage.src = imageURL;
   userCard.appendChild(userImage);
 
   const userCardInfo = document.createElement("div");

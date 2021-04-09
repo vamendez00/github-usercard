@@ -30,7 +30,7 @@ In this project we are going to be accessing the GitHub API and building a socia
 
 **Follow these steps for completing your project.**
 
-* [X] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
+* [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
 
 ### Project Setup
 
