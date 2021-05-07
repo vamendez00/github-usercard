@@ -43,13 +43,12 @@ axios
     const bioInfo = userInfo.bio; 
     console.log(bioInfo);
 
-    let myCard = userCardMaker( {imageURL, nameInfo, idInfo, locationInfo, profileURL, followersInfo, followingInfo, bioInfo} );
+    let myCard = cardMaker( {imageURL, nameInfo, idInfo, locationInfo, profileURL, followersInfo, followingInfo, bioInfo} );
     console.log("myCard is: \n \n", myCard);
 
     let cards = document.querySelector(".cards");
     console.log(cards);
     cards.appendChild(myCard);
-  })
   })
 
   .catch((error) => {
@@ -63,7 +62,7 @@ axios
 
 
 /*
-  STEP 2: Inspect and study the data coming back, this is YOUR hello
+  STEP 2: Inspect and study the data coming back, this is YOUR
     github info! You will need to understand the structure of this
     data in order to use it to build your component function
 
@@ -122,7 +121,7 @@ function followerCards (array){
         const bioInfo = userInfo.bio; 
         // console.log(bioInfo);
 
-        let newCard = userCardMaker( {imageURL, nameInfo, idInfo, locationInfo, profileURL, followersInfo, followingInfo, bioInfo} );
+        let newCard = cardMaker( {imageURL, nameInfo, idInfo, locationInfo, profileURL, followersInfo, followingInfo, bioInfo} );
         // console.log("myCard is: \n \n", myCard);
 
         let cards = document.querySelector(".cards");
